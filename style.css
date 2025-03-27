@@ -26,10 +26,26 @@ h1{
 }
 .card-botao{
     width: 100%; /* largura do elemento*/
-    height: 50px; /*Altura do elemento*/
-    padding: 25px 0; /*Espaçamento interno*/
-    background-color: #FF6500; /*cor de fundo*/
+    padding: 17px 0; /*Espaçamento interno*/
+    background-color: #ff65ff; /*cor de fundo*/
     color: #fff; /*cor do texto*/
     font-family: Arial; /*tipo de fonte*/
     font-weight: bold; /*Peso da fonte negrito*/
+}
+.card-descricao{
+    font-family: Arial;
+    font-weight: bold; 
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-left: 10px;/*espaçamento interno na esquerda*/
+    padding-right: 10px;/*espaçamento interno na direito*/
+    text-align: center; /*alinha o texto*/
+}
+.card-preco{
+    font-family: Impact;
+    font-size: 25px;
+    color: #000; /*cor da fonte*/
+    margin-bottom: 45px;
+    padding-left: 10%;
 }
