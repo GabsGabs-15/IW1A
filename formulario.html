@@ -9,12 +9,48 @@
 <body>
     <form action="salvar.html" 
             method="get">
-         <input type="text"
-             name=""
-             value=""
-             id=""
-             class=""/>
+            <label>Login</label>  
+            <input name="login" type="email" id="login">
+            <br />
+            <label>Senha:</label>
+            <input type="password" name="Senha">
+            <br />
+            <select name="Opções">
+                <option value="Facebook">
+                    Acessar Facebook
+                </option>
+                <option value="Instagram">
+                    Acessar Instagram
+                </option>
+            </select> 
+            <br />
+            <input type="checkbox" name="Salvar Senha"/>
+            Manter Logado
+            <br>
+            <input 
+            type="radio"
+             name="genero" 
+             value="masculino">Masculino
+            <br>
+            <input 
+            type="radio" 
+            name="genero" 
+            value="feminino">Feminino
+            <br>
+            <label>Data de Nascimento</label>
+            <input type="date" name="data de nascimento">
+            <br>
+            <label>Faça seu comentario</label>
+            <textarea name="comentario"></textarea>
+             <input
+                type="text"
+                name="login"
+                value="" /*valor*/
+                id=""
+                class=""/>
             <button type="submit">
+                <input type="button">
+
                 Enviar os dados
             </button>
     </form>
